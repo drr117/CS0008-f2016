@@ -35,7 +35,8 @@ else:
         elif (e > 8 and e <= 10):
             print ("Good")
         elif (e <= 8):
-            print ("Excellent")
+            msg_alpha = ("Excellent")
+
 
 
 
