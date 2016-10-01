@@ -1,0 +1,7 @@
+SELECT USC OR METRIC AS YOUR UNIT CHOICE; (TYPE 'METRIC' or 'USC', using double quotes and in all caps)"USC"
+How far did you travel?222
+How Much gas did you use?3
+Distance:    222.000 miles    357.273 km
+Gas:         3.000 gallons        11.356 liters
+Consumption:     74.000 mpg      0.265 L/100km
+gas consumption rating: Excellent
