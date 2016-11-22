@@ -1,0 +1,8 @@
+Unfortunately I only knew how to do certain parts of this program because I didn't pay adequate attention when dictionaries where brought up.
+However, I can provide a rationale regarding what segments of code I did produce.
+This is seen with the comments that I made in the "program".
+As a whole, I wanted the user to type in a location for their overall file that contained the subfiles of data.
+Following this, a function was created that opened this file and iterated through its contents with a for loop and readline function, 
+which then opened the files within the main file and proceeded to read their contents as well. Acummulator Variables were set up for running totals, 
+but the problem I ran into was that I could not easily find a way to implement a dictionary that allowed for participants to not be counted for twice. 
+I collaborated with a fellow student Alex Shepard for a part of this program.
