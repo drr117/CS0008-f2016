@@ -1,3 +1,9 @@
+#
+# MN: header with user, insructor and course info missing
+#
+
+# MN: what does this function do?
+#     could you please place the comments on their own line?
 def printKV (key, value, klen = 0): #setup a function that prints the output
     kl = max(len(key), klen) #variable that returns the largest value of the length of key, and klen
     if isinstance (value, str): #if the value is a string in all instances
@@ -9,7 +15,7 @@ def printKV (key, value, klen = 0): #setup a function that prints the output
     print(format(key, str(kl) + 's'),
             format (value, fs))
 
-
+# MN: could you please place the comment on their own line?
 def processfile(x): #function to read and count the file
     num_line = 0 #initialize the variable for line numbers
     distance_x = 0 #initialize the variable for distance run
@@ -25,6 +31,7 @@ def processfile(x): #function to read and count the file
     printKV("Partial Number of Lines:", num_line) #does the same for the number of lines
     return(distance_x, num_line) #returns the two values
 
+
 looper = 0 #create a value for the while loop
 distance_x = 0 #set a value for the distance initially, this is for a running total
 
@@ -34,6 +41,7 @@ while looper == 0: #set
     x = str(input("Enter the name of the file you wish to open, or enter 'Quit' to end the program "))
     print ("\n")
     print ("File to be read:", x)
+    # MN: what about when you hit enter without any other character?
     if (x == 'q' or x == 'quit' or x=='Quit' or x == "'Quit'"):
         looper = 1
         printKV("Total Distance Run:", end_distance)
@@ -43,3 +51,4 @@ while looper == 0: #set
         y_distance, y_n = processfile(f)
         end_distance = y_distance + end_distance
         end_n = y_n + end_n
+
