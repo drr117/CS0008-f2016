@@ -1,5 +1,14 @@
+#
+# MN: header with user, instructor and course info is missing
+#
+# Notes:
+# MN: please can you not use inline comments? it makes it really hard to read the code
+# MN: main body of the program is completely missing
+
 overall_file = input("Enter the location of your file") #lets the user select the location of the file
 global_dict = {} #creates a dictionary outside the function
+
+# MN: you define the function, but you never call it and use it!!!
 def processfile (overall_file, global_dict): #function for the two previous values and allows for the processing of one file that contains multiple files
     contents_overall_file = open(overall_file, 'r') #opens the file that contains the names of the other files
     files = contents_overall_file.readlines() #reads the overall file and reads the names within the file
