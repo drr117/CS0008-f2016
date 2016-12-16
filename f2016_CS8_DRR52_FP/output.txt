@@ -1,0 +1,17 @@
+C:\Python30\python.exe C:/Users/ibexr/Desktop/classes.py
+Please provide master file : f2016_cs8_fp.data.txt
+
+ Number of Input files read   :     3
+ Total number of lines read   :   450
+
+ Total distance run           :  23222.95595
+
+ Max distance run             :    205.82148
+   by participant             : Glynis              
+
+ Min distance run             :      0.05789
+   by participant             : Alex                
+
+ Total number of participants :   388
+ Number of participants
+  with multiple records       :     60.00000
